@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #1a0033, #000);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.birthday-text {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    color: #fff;
+    font-size: 2rem;
+    z-index: 10;
+    text-shadow: 0 0 10px #ff66cc;
+}
+
+#scene-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}

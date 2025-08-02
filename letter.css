@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to bottom, #ffd6e7, #ffeaf5);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.letter-box {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    border-top: 10px solid #ff66b2;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3399;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 18px;
+    text-align: left;
+    min-height: 150px;
+    margin-bottom: 30px;
+    white-space: pre-line;
+}
+
+.gift-button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background: #ff3399;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gift-button:hover {
+    background: #e60073;
+}

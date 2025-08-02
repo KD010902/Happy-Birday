@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nhập mật khẩu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="container">
+    <h2>NHẬP PASS ĐI NGƯỜI ĐẸP</h2>
+    <img src="https://mail.google.com/mail/u/0?ui=2&ik=6f535f4e21&attid=0.6&permmsgid=msg-f:1839312983935598221&th=19868d69ee3ebe8d&view=att&disp=safe&realattid=19868d64863c2723eab7&zw" style="width: 180px; height: 180px;" alt="Avatar" class="avatar">
+    <input type="password" id="password" placeholder="Enter password" readonly>
+    <div class="keypad">
+        <button onclick="addNum('1')">1</button>
+        <button onclick="addNum('2')">2</button>
+        <button onclick="addNum('3')">3</button>
+        <button onclick="addNum('4')">4</button>
+        <button onclick="addNum('5')">5</button>
+        <button onclick="addNum('6')">6</button>
+        <button onclick="addNum('7')">7</button>
+        <button onclick="addNum('8')">8</button>
+        <button onclick="addNum('9')">9</button>
+        <button onclick="addNum('0')">0</button>
+        <button onclick="clearInput()">✖</button>
+        <button onclick="checkPass()">✔</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
